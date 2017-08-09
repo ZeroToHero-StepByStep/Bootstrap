@@ -1,3 +1,8 @@
 body {
     padding-top: 50px;
 }
+
+a#navbar-brand-id
+{
+    color:#5cf442;
+}
