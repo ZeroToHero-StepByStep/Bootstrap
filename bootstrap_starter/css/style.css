@@ -7,14 +7,36 @@ section{
     padding:40px 0 40px 0 ;
 }
 
+footer{
+    background:#333 ;
+    color:white ;
+    padding:30px 0 30px 0;
+}
+
+
+footer li {
+    float: left ;
+    padding:0 10px 0 10px ;
+    list-style: none;
+}
+
+
+footer a {
+    color :white ;
+}
+
+footer p {
+    float:right ;
+}
+
 .em-text
 {
-    color:#5cf442;
+    color:#1caa98;
 }
 
 a#navbar-brand-id
 {
-    color:#5cf442;
+    color:#1caa98;
 }
 
 .jumbotron
@@ -54,3 +76,20 @@ img.demo {
     width :61% ;
 
 }
+
+
+section#feature{
+    background:#1caa98 ;
+    color:white ;
+    padding:40px 0 40px 0;
+    overflow: auto;
+}
+
+section#feature ul li
+{
+    font-size:22px;
+    list-style: none;
+    line-height: 2em;
+}
+
+
