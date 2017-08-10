@@ -2,6 +2,11 @@ body {
     padding-top: 50px;
 }
 
+
+section{
+    padding:40px 0 40px 0 ;
+}
+
 .em-text
 {
     color:#5cf442;
@@ -19,6 +24,13 @@ a#navbar-brand-id
     height : 500px ;
 
     overflow:none ;
+}
+
+
+img.demo {
+    width:100%;
+    padding:3px ;
+    border:1px solid gainsboro;
 }
 
 .jumbotron .app-btn
@@ -39,6 +51,6 @@ a#navbar-brand-id
 
 .jumbotron .showcase-image
 {
-    width :75% ;
+    width :61% ;
 
 }
