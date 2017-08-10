@@ -21,6 +21,8 @@ footer li {
 }
 
 
+
+
 footer a {
     color :white ;
 }
@@ -90,6 +92,19 @@ section#feature ul li
     font-size:22px;
     list-style: none;
     line-height: 2em;
+}
+
+section#title-bar{
+    padding:0 ;
+    margin:0;
+    height:80px ;
+    background-color:#1caa98;
+    color:white ;
+}
+
+section#title-bar h1 {
+    margin-bottom:20px ;
+
 }
 
 
