@@ -31,6 +31,11 @@ footer p {
     float:right ;
 }
 
+.col-md-4
+{
+    margin-bottom:20px;
+}
+
 .em-text
 {
     color:#1caa98;
@@ -43,7 +48,7 @@ a#navbar-brand-id
 
 .jumbotron
 {
-    background:url("../image/site_showcase_bg.jpg") no-repeat top center ;
+    background: #1b222a url("../image/site_showcase_bg.jpg") no-repeat top center ;
     color: white;
     height : 500px ;
 
@@ -57,7 +62,7 @@ img.demo {
     border:1px solid gainsboro;
 }
 
-.jumbotron .app-btn
+.jumbotron img.app-btn
 {
     width:40% ;
     margin-right:30px;
@@ -94,6 +99,14 @@ section#feature ul li
     line-height: 2em;
 }
 
+
+section#feature ul
+{
+    padding:0 ;
+}
+
+
+
 section#title-bar{
     padding:0 ;
     margin:0;
@@ -107,4 +120,70 @@ section#title-bar h1 {
 
 }
 
+
+/*MEDIA   QUERIES*/
+@media(min-width: 991px) and (max-width: 1200px)
+{
+    .showcase-image{
+        /*display: none;*/
+        /*height: ;*/
+    }
+}
+
+@media (min-width: 768px) and ( max-width: 990px) {
+    .jumbotron img.app-btn
+    {
+        width:30% ;
+    }
+
+    .jumbotron
+    {
+        height: 400px;
+        background-size : 100%  100% ;
+    }
+
+    .jumbotron h1 {
+        margin-top:10px;
+    }
+}
+
+
+@media ( max-width: 768px )
+{
+    .jumbotron
+    {
+        height: 350px;
+        background-size : 100%  100% ;
+    }
+
+    .jumbotron h1
+    {
+        margin-top : 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .jumbotron{
+
+        background-image: none;
+        text-align: center;
+    }
+
+    .jumbotron img.app-btn{
+        width:60px ;
+        margin:0 auto 30px auto ;
+        display: block;
+    }
+
+    section#feature ul li
+    {
+        font-size:19px;
+    }
+
+    footer p{
+        float:none ;
+        text-align:center;
+        padding-top:20px;
+    }
+}
 
