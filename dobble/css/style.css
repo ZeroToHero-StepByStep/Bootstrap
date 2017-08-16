@@ -95,27 +95,46 @@ header .logo {
     width: 55px;
 }
 
-.group-item img{
-    width:80px ;
-    float:left ;
-    margin-right:15px ;
+.group-item img {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
 }
 
-.group-item{
-    padding-bottom:10px ;
-    margin-bottom:20px;
-    border-bottom:1px solid gray ;
-    overflow:auto ;
+.group-item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    overflow: auto;
 
 }
 
-footer{
-    background: #f4f4f4 ;
-    height:90px ;
-    color:#04519b;
+footer {
+    background: #f4f4f4;
+    height: 90px;
+    color: #04519b;
     font-weight: bold;
-    text-align:center ;
-    padding-top : 40px ;
-    margin-top : 30px ;
-    border-top:7px  solid #04519b;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 30px;
+    border-top: 7px solid #04519b;
+}
+
+/*Members css*/
+
+.members .member-row {
+    border-bottom:1px solid gray ;
+    padding-bottom:20px ;
+    margin-bottom:20px ;
+}
+
+.members img {
+    margin-bottom: 5px ;
+}
+
+@media (min-width: 991px){
+
+    .members p {
+        padding-top:40px ;
+    }
 }
